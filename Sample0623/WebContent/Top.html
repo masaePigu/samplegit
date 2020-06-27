@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-csale=1">
+<link rel="stylesheet" href="./css/My.css">
+<script src="./js/my.js"></script>
+<title>JAL TOP</title>
+<script type="text/javascript">
+	function search() {
+		let word;
+		word = document.getElementById('search');
+
+		alert('文字は${word.value}です');
+		word.value = 'ZZZZZZZZZZZZ';
+
+		location.href = 'Search.html' + '?name=' + word.value;
+	}
+</script>
+</head>
+<body>
+	<header>
+		<div class="logo"></div>
+		<div>
+			<div>
+				<ul class="link">
+					<li><a href="#">Japan</a></li>
+					<li><a href="#">日本語</a></li>
+					<li><input type="search" placeholder="検索テキスト" id="search">
+						<input type="button" value="検索" onclick="search() ;"></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="link">
+					<li><a href="#">おからだの不自由なお客さまへ</a></li>
+					<li><a href="#">よくあるご質問</a></li>
+					<li><a href="#">お問い合わせ・サポート</a></li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<input type="button" value="閉じる" id="close_btn">
+		</div>
+	</header>
+	<main>
+	<aside class="line2">
+		<div >
+			<div><a href="#"><img src="./img/bnr_top_001.png"></a></div>
+			<div><a href="#"><img src="./img/bnr_btm_001_1808.png"></a></div>
+		</div>
+		<div>
+			<div id="login">
+				<div >
+					<input type="text">
+					<input type="password">
+					<input type="button" value="ログイン" >
+				</div>
+				<div>ソフトキーボード</div>
+			</div>
+		</div>
+		<div>
+			<div>ログインでお困りの方</div>
+			<div>他社でログイン</div>
+		</div>
+	</aside>
+	<nav>
+		<ul class="navber">
+			<li><a href="#">国内線</a></li>
+			<li><a href="#">国際線</a></li>
+			<li><a href="#">国内ツアー</a></li>
+			<li><a href="#">海外ツアー</a></li>
+			<li><a href="#">マイレージクラブ</a></li>
+			<li><a href="#">Travel&Life</a></li>
+		</ul>
+
+	</nav>
+	<aside>aside</aside>
+	<aside>aside</aside>
+	</main>
+	<footer>footer</footer>
+</body>
+</html>

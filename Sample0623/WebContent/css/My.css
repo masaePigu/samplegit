@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*全体*/
+body {
+	margin: 0;
+	border: medium solid #0000ff;
+}
+
+header {
+	border: medium solid #0000ff;
+}
+
+main {
+	border: medium solid #0000ff;
+}
+
+aside {
+	border: medium solid #0000ff;
+}
+
+nav {
+	border: medium solid #0000ff;
+}
+
+footer {
+	border: medium solid #0000ff;
+}
+
+/*ここから*/
+
+.logo {
+	background-image: url("../img/head_logo.png");
+	height: 70px;
+	width:400px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+
+}
+
+.link {
+	list-style: none;
+}
+
+.link a {
+	text-decoration: none;
+	color: black ;
+}
+
+#login {
+ margin-left: 10px;
+
+}
+.link a:hover {
+	color: navy;
+}
+.input_box {
+	display: block;
+}
+
+#search {
+	background-color: azure;
+}
+
+nav {
+		background-color: navy;
+}
+.navber {
+	list-style: none;
+
+}
+
+ul.navber{
+		margin-left: 30px;
+	margin-right: 30px;
+}
+
+.navber a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.navber a:hover {
+	background-color: lime;
+}
+
+@media only screen and (min-width:768px) { /*ナビゲーション*/
+
+header {
+	display: flex;
+}
+
+.link {
+	display: flex;
+}
+.link a {
+	margin-right: 10px;
+}
+
+#close_btn {
+	position: relative;top: 40px;left:100px;
+}
+
+.line2{
+	display: flex;
+}
+
+	.navber {
+		display: flex;
+		justify-content: space-around;
+		padding-left: 0px;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		margin: 0 0 0 0;
+	}
+	.navber li {
+		width: 16%;
+		text-align: center;
+	}
+}
