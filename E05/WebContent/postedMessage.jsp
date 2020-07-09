@@ -7,6 +7,7 @@
 	 }
 %>
 <input type="hidden" name="prevtext" value="<%= concat %>">
+<input type="hidden" name="prevtext" value="<%= concat %>">
 <!--
 <p style="width:300px"><%= concat %></p>
  -->

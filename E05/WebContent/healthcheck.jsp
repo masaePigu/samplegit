@@ -13,6 +13,7 @@
 			border: 1px solid;
 			border-collapse: collapse;
 			padding: 2px 15px;
+
 		}
 		th {
 			background-color: #CCFFFF;
